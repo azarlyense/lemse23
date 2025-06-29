@@ -30,12 +30,12 @@ root1.render(
         <Route path="/welcome" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/about6" element={<About6 />} />
-        <Route path="/eFy2Rp4Th9Km2Lq1Ns8Xw3Zg6Vo5Sj0Fb3Te4Yr7Uq1Ix8Pm2Kn9Xs6Jz3Ob5Nh8Jr5Ft4" element={<About9 />} />
-        <Route path="/dPy7Qr4Gs5Ft2Wp9Bu6Zv3Xq8Ky1Lo4Nh2Ix5Su7Jw8Tn3Rm4Fe9Ya6Hp1Gb5Jx8Vt7Yr6" element={<About99 />} />
-        <Route path="/kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms9" element={<About9991 />} />
-        <Route path="/kTy3Ap7Sx5Dq9Lo2Hr4Vm1Zw8Yn6Kf3Gh7Jt2Qy8Uo5Pj9Mb4Re6Fu3Hv5Xq7Zl8Cn1Ms2" element={<About9992 />} />
-        <Route path="/hWz5Dq8To2Xe7Hs4Mv1Yu6Jx3Ap7Kl9Pq8Ln2Fr5Vw9Gb7Zt4Ho1Ns3Dr6Ty5Fj8Km2Vx7" element={<About595 />} />
-        <Route path="/gQx9Wu2Pv3Ky4Hz5Mo1En6Js8Xt3Ao7Lr4Fu5Dv2Gy9Zw6Bq8Hn3Sr7Tp4Yj5Vf2Km1Xq9" element={<About5955 />} />
+        <Route path="/Xp6Vr8Lo2Kn3Yt9WsCf7Ju0NUx0Pm4Rs8Vy7Gtz6Tr3Hv9Ep2Gx4Lq7Pa5Wm1Jy8Rt0Kb3No6Xs" element={<About9 />} />
+        <Route path="/Zq7Nx0Lp3Hv9Tr4Fd5Mu8Cy1Jo6Wn2Kx5Yt3Pa9Gs0Bj7LMf7Ld2q4Vr1Wm6Xe3Ub8Kt2Ro5Ny" element={<About99 />} />
+        <Route path="/Ur5Xp3Lq9Yv2Wn6Ko4Md7Ct1Fb0Je8Ty3Gs5Nx4T3Hu9z0Xq6Kr1Po7Wm9Lb2Hv4Yt3Aj8Cf5Rs" element={<About9991 />} />
+        <Route path="/Kt9Po6Wm3Lf1Xq7Yv2Ub4Jo0Md8Ns5Tr3Gn5Qa9CCw1Bn3Kv9Rp2Lk0Wb6Xt4Je3Mv1Ho8FsNy" element={<About9992 />} />
+        <Route path="/Ty3Xp9Lq0Yv5Jo7Wn6Md1Cr8Ub4Ko2Gs6Kt1Ro8Wm3Lb73Zq9Yb5Uw2Xq0Hv2Je9Ma4Fy5Ns" element={<About595 />} />
+        <Route path="/9Kr2Xp6Lq7Mt3Bc8Zv1Wo4Nh5Ty3Jd65JLo3Vn5Ga1X2Ub4Jo0Md8Ns5Tr3Gn5p6JrFx7Km4Th" element={<About5955 />} />
         <Route path="/about10" element={<About10 />} />
         <Route path="/uploader" element={<About65 />} />
         <Route path="/display/:number" element={<About66 />} />

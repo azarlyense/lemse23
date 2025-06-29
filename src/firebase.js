@@ -6,13 +6,13 @@
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyCV0Mwjt0-UwNlFDF3jRO1CEYEC0r0lzuk",
-  authDomain: "mlcinus3.firebaseapp.com",
-  projectId: "mlcinus3",
-  storageBucket: "mlcinus3.firebasestorage.app",
-  messagingSenderId: "664386974042",
-  appId: "1:664386974042:web:274d4617d9a9a9e803c363",
-  measurementId: "G-5Z2YZTHZL7"
+  apiKey: "AIzaSyDUnNzjdW_n5GWpQJpBAr4KohESPBqBab4",
+  authDomain: "hezymal-95499.firebaseapp.com",
+  projectId: "hezymal-95499",
+  storageBucket: "hezymal-95499.firebasestorage.app",
+  messagingSenderId: "800869356630",
+  appId: "1:800869356630:web:db942bc3e644a0723717f7",
+  measurementId: "G-1ZC1WN0LCL"
 };
 
 // Initialize Firebase
